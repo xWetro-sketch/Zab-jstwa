@@ -1,0 +1,14 @@
+name: ZabojstwoPlugin
+version: '${project.version}'
+main: pl.zabojstwo.ZabojstwoPlugin
+api-version: '1.21'
+description: Ranking zabójstw (Elo), napisy title, brak wiadomości join/quit.
+commands:
+  ranking:
+    description: Pokazuje ranking Twój lub wybranego gracza
+    usage: /ranking [gracz]
+    aliases: [rank]
+  top:
+    description: Top 10 graczy w rankingu
+    usage: /top
+    aliases: [toplista]

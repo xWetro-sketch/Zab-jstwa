@@ -1,0 +1,11 @@
+# Startowy ranking nowego gracza
+start-rating: 1000
+
+# Sila zmian rankingu (im wyzszy, tym wieksze zmiany po kazdym zabojstwie)
+k-factor: 32
+
+# Minimalna zmiana rankingu po zabojstwie (zabojca dostaje minimum tyle)
+min-change: 1
+
+# Ile rankingu traci gracz, ktory zginal NIE z reki innego gracza (spadek, lawa, mob itd.)
+environment-death-loss: 10
